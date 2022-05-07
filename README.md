@@ -1,6 +1,6 @@
-# S1-L5 - Progetto settimanale
-Progetto Week1 Epicode
+# S2-L5 - Progetto settimanale
+Progetto Week2 Epicode
 *
-Layout completo HTML + CSS
+Creazione minisito completo (responsive)
 
 Valerio Maiolini
