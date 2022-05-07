@@ -19,20 +19,17 @@
 <body>
   <header>
     <div>
-      <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+      <a href="index.html" title="Homepage"><img src="assets/images/logo.png" alt="logo epicode"></a>
     </div>
-    <nav>
-      <div class="hamburger">
-        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
-      </div>
-      <div class="esteso">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="chi-siamo.html">Chi siamo</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
-          <li><a href="#newsletter" class="button">Registrati</a></li>
-        </ul>
-      </div>
+    <label for="menuButton" id="menuMobile"><i class="fa-solid fa-ellipsis"></i></label>
+    <input type="checkbox" id="menuButton">
+    <nav class="esteso">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a href="#newsletter" class="button" id="registrati">Registrati</a></li>
+      </ul>
     </nav>
   </header>
   <main>
@@ -67,9 +64,9 @@
       </div>
       <div>
         <h4>Ti piace ciò che vedi?<br>Condividilo con i tuoi amici!</h4>
-        <a href="https://www.facebook.com/epicodeitalia"><i class="fa-brands fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/epicode.italia/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.linkedin.com/school/epicodeitalia/"><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="https://www.facebook.com/epicodeitalia" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.linkedin.com/school/epicodeitalia/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/epicode.italia/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
       </div>
       <div id="newsletter">
         <form action="#">
