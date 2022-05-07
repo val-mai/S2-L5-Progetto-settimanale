@@ -1,7 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 
 
-/* Font size leggermenti diversi per renderlo più simile al mockup */
+/* Font size leggermenti diversi rispetto alla traccia per renderlo più simile al mockup */
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.8rem;
@@ -44,6 +44,10 @@ p {
     padding: 0.5em 1em;
 }
 
+.button:hover {
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -68,6 +72,11 @@ header li {
 
 .esteso {
     display: none;
+}
+
+#info {
+    box-sizing: border-box;
+    animation: bottone 500ms infinite;
 }
 
 /* MAIN */
@@ -141,6 +150,10 @@ textarea {
 
 #contatti a {
     color: black;
+}
+
+.tableL {
+    display: none;
 }
 
 table {
@@ -219,6 +232,18 @@ footer input {
     margin: 0 auto;
 }
 
+/* ANIMAZIONE */
+
+@keyframes bottone {
+    from {
+        outline: 1px solid gray;
+    }
+
+    to {
+        outline: 5px solid gray;
+    }
+}
+
 
 /* RESPONSIVE */
 
@@ -238,10 +263,16 @@ footer input {
         display: inline-block;
         font-size: 1.2rem;
         padding: 0 0.6em;
-        color: grey;
+    }
+
+    nav a {
+        color: gray;
     }
     nav a:visited {
         color: grey;
+    }
+    nav a:hover {
+        color: #e42424;
     }
     nav .button:visited{
         color: white;
@@ -306,6 +337,35 @@ footer input {
         width: 35vw;
         margin: 0 auto;
     }
+
+    .tableS {
+        display: none;
+    }
+
+    .tableL {
+        background-color: white;
+        display: block;
+        text-align: center;
+    }
+
+    .tableL th {
+        background-color: #66819f;
+        color: white;
+        width: auto;
+        text-align: center;
+        font-weight: bold;
+        padding: 0.5em;
+    }
+
+    .tableL td {
+        padding: 0.5em 2em ;
+        vertical-align:middle;
+    }
+
+    .bluetab {
+        background-color: #d2dce7;
+    }
+
 }
 
 /* Desktop */
@@ -317,6 +377,15 @@ footer input {
     }
 
     section {
-        padding: 2em 5.5em;
+        padding: 2em 5.5em 1em 5.5em;
+    }
+
+    #coders img {
+        width: 30vw;
+        margin: 0 auto;
+    }
+
+    .tableL {
+        width: 75%;
     }
 }
