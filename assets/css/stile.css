@@ -56,7 +56,7 @@ a {
 /* HEADER */
 
 header {
-    box-shadow: 0 2px 10px rgb(226, 226, 226);
+    box-shadow: 0 2px 10px #d3d3d3;
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -144,6 +144,11 @@ section {
     margin: 1em 0;
 }
 
+#vantaggi i{
+    color: #e42424;
+    font-size: 3rem;
+}
+
 #scrivici {
     background-color: #0c1633;
     color: white;
@@ -163,10 +168,12 @@ section img {
     margin-top: 0.7em;
 }
 
-#chi i {
+#faccine i{
+    color: #e42424;
     font-size: 2rem;
     padding-right: 0.5em;
 }
+
 
 input {
     margin: 1.6em auto;
@@ -420,12 +427,18 @@ footer input {
         padding: 2em 5.5em 1em 5.5em;
     }
 
+    .contacts {
+        padding: 2em 0 1em 0;
+        width: 85%;
+        margin: auto;
+    }
+
     #coders img {
         width: 30vw;
         margin: 0 auto;
     }
 
     .tableL {
-        width: 75%;
+        width: 85%;
     }
 }
